@@ -8,16 +8,9 @@ function App() {
       <header className="App-header">
         <img src={ProfilePic} className="profile-pic" alt="pic" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Seth Maisel Puissant Portfolio and Prolific Profile Page
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
       </header>
     </div>
   );
