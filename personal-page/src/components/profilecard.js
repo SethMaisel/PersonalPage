@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfilePic from '../pictures/ProfilePic.jpg'
 
 class ProfileCard extends React.Component {
     render() {
@@ -7,7 +8,7 @@ class ProfileCard extends React.Component {
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-xs-6'>
-                            <img src='../pictures/ProfilePic.jpg' />
+                            <img src={ProfilePic} alt='profile-pic'/>
                         </div>
 
                     </div>
