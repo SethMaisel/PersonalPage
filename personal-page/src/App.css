@@ -48,3 +48,16 @@ img {
     transform: rotate(360deg);
   }
 } */
+.a {
+  justify-content: flex-end;
+  padding: 3px 10px;
+  font-size: 10px;
+  color: rgb(170, 164, 164);
+  border-radius: 30px;
+  border: 2px solid #e70d0d;
+  cursor: pointer;
+}
+
+.a:hover {
+  color:  #e70d0d;
+}
