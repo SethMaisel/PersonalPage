@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCard from './components/cardContainer/CardFront.js/index.js.js'
+import Card from './components/cardContainer/Card.js'
 import ProjectsPage from './components/ProjectsPage.js'
 import Blogs from './components/Blogs.js'
 import './App.css';
@@ -11,8 +11,7 @@ function App() {
         <p>
           Seth Maisel Portfolio / Profile
         </p>
-        <ProfileCard />
-
+        <Card />
       </header>
 
       <div className='col-xs-6 side-front-content'>

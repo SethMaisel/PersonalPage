@@ -7,9 +7,8 @@ class Card extends React.Component {
      return(
       <div className='card-container'>
        <div className='card-body'>
-        <CardBack />
-   
         <CardFront />
+        <CardBack />
        </div>
       </div>
      )

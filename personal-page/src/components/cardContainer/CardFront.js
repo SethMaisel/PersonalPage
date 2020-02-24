@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from '../components/pictures/ProfilePic.jpg'
+import ProfilePic from '../pictures/ProfilePic.jpg'
 
 class CardFront extends React.Component {
     render() {
