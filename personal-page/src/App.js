@@ -1,15 +1,16 @@
 import React from 'react';
 import ProfileCard from './components/ProfileCard.js'
+import ProjectsPage from './components/ProjectsPage.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ProfileCard />
         <p>
           Seth Maisel Portfolio / Profile
         </p>
+        <ProfileCard />
 
       </header>
 
@@ -23,6 +24,7 @@ function App() {
         
         <p>Software Developer, Fight Choreographer, Juggler, Former Raft Guide</p>
       </div>
+      <ProjectsPage />
     </div>
   );
 }
