@@ -1,7 +1,7 @@
 import React from 'react';
-import ProfilePic from '../pictures/ProfilePic.jpg'
+import ProfilePic from '../components/pictures/ProfilePic.jpg'
 
-class ProfileCard extends React.Component {
+class CardFront extends React.Component {
     render() {
         return (
             <div className='card-side side-front'>
@@ -18,4 +18,4 @@ class ProfileCard extends React.Component {
     }
 }
 
-export default ProfileCard;
+export default CardFront;

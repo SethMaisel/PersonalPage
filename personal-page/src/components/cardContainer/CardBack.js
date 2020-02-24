@@ -1,5 +1,5 @@
 import React from 'react';
-import BatmanShirt from '../pictures/BatmanShirt.jpg'
+import BatmanShirt from '../components/pictures/BatmanShirt.jpg';
 
 class CardBack extends React.Component {
     render() {

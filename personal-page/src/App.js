@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCard from './components/ProfileCard.js'
+import ProfileCard from './components/cardContainer/CardFront.js/index.js.js'
 import ProjectsPage from './components/ProjectsPage.js'
 import Blogs from './components/Blogs.js'
 import './App.css';
