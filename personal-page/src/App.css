@@ -20,8 +20,8 @@
   position: relative;
   z-index: 1;
   margin: 1px;
-  max-width: 720px;
-  height: 420px;
+  max-width: 50%;
+  height: 200px;
   perspective: 1000px;
  }
 
