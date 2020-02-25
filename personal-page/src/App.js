@@ -8,15 +8,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="picture-card">
         <Card />
-        </div>
         <p>
           Seth Maisel Portfolio / Profile
         </p>
       </header>
 
-      <div className='col-xs-6 side-front-content'>
+      <div className='body'>
 
         <h1>Full-Stack Developer</h1>
         <a href="https://medium.com/@seth.maisel">Check out my Blogs!</a>
