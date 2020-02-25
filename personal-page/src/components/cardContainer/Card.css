@@ -1,7 +1,7 @@
 .card-container {
-    position: relative;
+    /* position: relative; */
     z-index: 1;
-    margin: 32px auto;
+    margin: 10px auto;
     max-width: 720px;
     height: 420px;
     perspective: 1000px;
@@ -45,28 +45,28 @@
     padding-left: 0;
    }
    
-   .side-front-content {
-    padding-top: 32px;
+   /* .side-front-content {
+    padding-top: 5px;
     padding-right: 32px;
     padding-bottom: 32px;
-   }
+   } */
    
-   .side-back {
+   /* .side-back {
     z-index: 2;
     padding: 32px;
     text-align: center;
     transform: rotateY(180deg);
-   }
+   } */
    
-   .card-form {
+   /* .card-form {
     margin-top: 32px;
-   }
+   } */
    
-   .card-form .row + .row,
+   /* .card-form .row + .row,
    .card-form .row + fieldset,
    .card-form fieldset + fieldset {
     margin-top: 16px;
-   }
+   } */
    
    /* input,
    textarea {
@@ -88,29 +88,29 @@
     resize: vertical;
    }
    
-   /* .btn-primary {
+   .btn-primary {
     padding: 8px 16px;
     font-size: 16px;
     background-color: #0c81f6;
     border: none;
     box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
-    transition: background-color .25s ease-in, box-shadow .25s ease-in; */
+    transition: background-color .25s ease-in, box-shadow .25s ease-in;
     
-    &:focus,
+    /* &:focus,
     &:active {
      background-color: lighten(#0c81f6, 15%);
-     box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
+     box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07); */
     }
    
     a {
      color: #212121;
      transition: opacity .25s ease-in;
     
-     &:focus,
+     /* &:focus,
      &:active {
       opacity: .5;
      
-    }
+    } */
   }
     
     i {

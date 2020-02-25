@@ -8,10 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="picture-card">
+        <Card />
+        </div>
         <p>
           Seth Maisel Portfolio / Profile
         </p>
-        <Card />
       </header>
 
       <div className='col-xs-6 side-front-content'>
