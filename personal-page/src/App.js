@@ -9,9 +9,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Card />
-        <p>
-          Seth Maisel Portfolio / Profile
+        <div className="Title">
+          <p>
+            Seth Maisel Portfolio / Profile
         </p>
+        </div>
       </header>
 
       <div className='body'>
